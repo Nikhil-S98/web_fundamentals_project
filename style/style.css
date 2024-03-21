@@ -23,7 +23,7 @@ header {
     align-items: center;
 }
 .banner {
-    background-color: #f1e2ff;
+    background-color: #ffffff00;
     position: fixed;
     top: 0;
     left: 0;
@@ -74,7 +74,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(237, 228, 255); 
+    background-color: rgba(237, 228, 255, 0.659); 
 }
 
 #homeBoxContent {
@@ -96,7 +96,8 @@ button {
     justify-content: center;
     align-items: center;
     width: 300px;
-    background: none;
+    background-color: #f1e2ff86;
+
     padding: 0px;
 }
 
