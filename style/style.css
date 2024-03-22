@@ -54,8 +54,13 @@ li {
     list-style-type: none;
 }
 
-a {
+.navLinks {
     text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    color:#c68cf3
 }
 
 .pageContent {
@@ -90,6 +95,7 @@ a {
 }
 
 button {
+    color: inherit;
     font: inherit;
     font-size: 30px;
     display: flex;
@@ -97,7 +103,9 @@ button {
     align-items: center;
     width: 300px;
     background-color: #f1e2ff86;
-
     padding: 0px;
 }
 
+.backButton {
+    text-decoration: none;
+}
