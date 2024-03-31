@@ -60,7 +60,7 @@ li {
 }
 
 a:visited {
-    color:#c68cf3
+    color:#c68cf3;
 }
 
 .pageContent {
@@ -126,4 +126,6 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
 }
+
